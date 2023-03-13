@@ -10,10 +10,14 @@ nav {
   justify-content: space-between;
 }
 
-.link {
+li {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+li a {
   text-decoration: none;
   margin: 5px;
-  font-family: $font-text;
   font-size: 16px;
   color: $color-light;
   font-weight: 600;
@@ -22,4 +26,8 @@ nav {
 .icon i {
   font-size: 24px;
   color: $color-light;
+}
+
+.linkActive {
+  color: $color-warning;
 }

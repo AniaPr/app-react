@@ -4,7 +4,7 @@ import Home from './components/Home/Home';
 import Favorite from './components/Favorite/Favorite';
 import About from './components/About/About';
 import { Routes, Route } from 'react-router-dom';
-import ErrorPage from './components/NotFound/NotFound';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const App = () => {
   return (
