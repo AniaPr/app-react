@@ -11,3 +11,13 @@
   justify-content: space-between;
   font-weight: bold;
 }
+
+button {
+  border: none;
+  cursor: pointer;
+  background: $color-light;
+
+  &.active {
+    color: $color-warning;
+  }
+}

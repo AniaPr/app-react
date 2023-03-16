@@ -14,6 +14,7 @@ const SearchForm = () => {
     e.preventDefault();
     dispatch(search(searchString));
   };
+
   return (
     <form className={styles.searchForm} onSubmit={handleSubmit}>
       <TextInput
